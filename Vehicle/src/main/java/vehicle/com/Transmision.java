@@ -1,0 +1,27 @@
+package vehicle.com;
+
+public class Transmision {
+    private String transType;
+    private int numSpeed;
+
+    public Transmision(String transType, int numSpeed) {
+        this.transType = transType;
+        this.numSpeed = numSpeed;
+    }
+
+    public int getNumSpeed() {
+        return this.numSpeed;
+    }
+
+    public String getTransType() {
+        return this.transType;
+    }
+
+    public void setNumSpeed(int numSpeed) {
+        this.numSpeed = numSpeed;
+    }
+
+    public void setTransType(String transType) {
+        this.transType = transType;
+    }
+}
